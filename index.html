@@ -1,0 +1,471 @@
+<!-- for a much more updated and better version, check out my website's repo: -->
+<!-- https://github.com/abdlkhn/khanabdullah.com/tree/v1--><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Styles/style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Maven+Pro:500' rel='stylesheet'>
+    <script defer src ="js/app.js"></script>
+    <title>notes</title>
+  </head>
+  <body>
+    <header>
+      <h1>B<span>U</span></h1>
+    </header>
+
+    <nav id="sticky_nav">
+      <div class="container_left">
+        <button id="btnLogo" >
+          <header>
+            <h1>B<span>U</span></h1>
+          </header>
+        </button>
+      </div>
+      
+      <div class="container_menu" id="thisMenu">
+
+        <a href="MobileDevices/index.html"><div class="container_list">
+          <button class="btnList">
+            <i class="ri-smartphone-line" aria-hidden="true"></i>
+          </button>
+        </div></a>
+        
+        <a href="Electronics/index.html"><div class="container_list">
+          <button class="btnList">
+            <i class="ri-computer-line" aria-hidden="true"></i>
+          </button>
+        </div></a>
+        
+        <a href="Car Pool & Fleet/index.html"><div class="container_list">
+          <button class="btnList">
+            <i class="ri-car-line" aria-hidden="true"></i>
+          </button>
+        </div></a>
+        
+        <a href="Real Estate/index.html"><div class="container_list">
+          <button class="btnList">
+            <i class="ri-home-smile-2-line" aria-hidden="true"></i>
+          </button>
+        </div></a>
+
+      </div>
+      <div class="container_right">
+        <button id="btnSearch">
+          <a href="#search-now"><i class="ri-search-line" ></i></a>
+        </button>
+      </div>
+    </nav>  
+
+    <div id="topbar">
+      <nav class="mainnav right desktoponly">
+        <a class="active">
+          Home
+        </a><a>
+          New
+        </a><a>
+          Used 
+        </a><a>
+          Services
+        </a>
+      </nav>
+      <!-- <p class="topbar-flo"><button>Smart Phone <span>></span> </button><button>Brands <span>></span> </button><button>Apple <span></span> </button> </p> -->
+    </div>
+
+    <div id="bottombar" class="mobileonly">
+      <a>
+        <i class="active ri-home-line " aria-hidden="true"></i>
+        <p>Home</p>
+      </a><a style="display: none;">
+        <i class="ri-shield-star-line " aria-hidden="true"></i>
+        <p>New</p>
+      </a><a>
+        <i class="ri-shield-check-line" aria-hidden="true"></i>
+        <p>Sell</p>
+      </a><a style="display: none;">
+        <i class="ri-shield-user-line" aria-hidden="true"></i>
+        <p>Fair-New</p>
+      </a><a onclick="openNav()">
+        <i class="fa fa-ellipsis-h fa-2x" aria-hidden="true"></i>
+        <p>More</p>
+      </a> 
+    </div>
+
+    <section class="news">
+      <div>
+        <section class="news-message">
+          <p>China</p>
+          <p>Italy</p>
+          <p>Iran</p>
+          <p>South Korea &nbsp;</p>
+          <p class="flash">flash sale ⚡ </p>
+          <p>France</p>
+          <p>Germany</p>
+          <p>United States</p>
+          <p>Switzerland</p>
+          </section>
+        <section class="news-message">
+          <p>China</p>
+          <p>Italy</p>
+          <p>Iran</p>
+          <p>South Korea &nbsp;</p>
+          <p class="flash">flash sale ⚡ </p>
+          <p>France</p>
+          <p>Germany</p>
+          <p>United States</p>
+          <p>Switzerland</p>
+          </section>
+      </div>
+    </section>    
+
+    <div class="buy-now">
+      <div class="scrolly">
+        <h4 id="top-picks">Top Picks</h4>
+        <ul class="carouselPre">
+          <li class="itemsC" >
+              <div class="contants">
+                  <h1 class="leftTxtDet" style="color: #2c3e48;">i Phone</h1>
+                  <div data-modal="dialog2" class="textDet" style="background-color: #79787a"><p>ODESZA, Jai Wolf, Kelly Clarkson, DNCE, P!nk, Jason Derulo, Ed Sheeran, WALK THE MOON, Billie Eilish, Ritt Momney, Jonas Brothers, Shawn Mendes</p></div>
+              </div>
+              <div class="bgImg"><img data-lazy="https://i.pinimg.com/564x/97/e6/00/97e600ebef9c0b20a3debc90c47b30fc.jpg" alt="image" srcset=""></div>
+          </li>
+          <li class="itemsC">
+              <div class="contants">
+                  <h1 class="leftTxtDet">windows</h1>
+                  <div class="textDet" style="background-color: #172f47"><p>Billie Eilish, Jai Wolf, Kelly Clarkson, DNCE, P!nk, Jason Derulo, Ed Sheeran, WALK THE MOON, Billie Eilish, Ritt Momney, Jonas Brothers, Shawn Mendes</p></div>
+              </div>
+              <div class="bgImg"><img data-lazy="https://i.pinimg.com/564x/e0/0a/14/e00a146850d59e2c67c804167e4c50c7.jpg" alt="image" srcset=""></div>
+          </li>
+          <li class="itemsC">
+              <div class="contants">
+                  <h1 class="leftTxtDet">samsung</h1>
+                  <div class="textDet" style="background-color: #d97401"><p>Panic at the Disco, Jai Wolf, Kelly Clarkson, DNCE, P!nk, Jason Derulo, Ed Sheeran, WALK THE MOON, Billie Eilish, Ritt Momney, Jonas Brothers, Shawn Mendes</p></div>
+              </div>
+              <div class="bgImg"><img data-lazy="https://i.pinimg.com/564x/d8/d6/6c/d8d66ce6ac3b421652e6ad9aa12a58a5.jpg" alt="image" srcset=""></div>
+          </li>
+          <li class="itemsC">
+              <div class="contants">
+                  <h1 class="leftTxtDet">google</h1>
+                  <div class="textDet" style="background-color: #323c52"><p>Dua Lipa, Jai Wolf, Kelly Clarkson, DNCE, P!nk, Jason Derulo, Ed Sheeran, WALK THE MOON, Billie Eilish, Ritt Momney, Jonas Brothers, Shawn Mendes</p></div>
+              </div>
+              <div class="bgImg"><img data-lazy="https://i.pinimg.com/564x/52/39/3d/52393d7d547620fb385f918318746062.jpg" alt="image" srcset=""></div>
+          </li>
+          <li class="itemsC">
+              <div class="contants">
+                  <h1 class="leftTxtDet">tesla</h1>
+                  <div class="textDet"><p></p></div>
+              </div>
+              <div class="bgImg"><img data-lazy="https://i.pinimg.com/564x/aa/a9/07/aaa907b3583528a41af0cda678431e5b.jpg" alt="image" srcset=""></div>
+          </li>
+          <li class="itemsC">
+            <div class="contants">
+                <h1 class="leftTxtDet">mercedes</h1>
+                <div class="textDet" style="background-color: #000000"><p>ODESZA, Jai Wolf, Kelly Clarkson, DNCE, P!nk, Jason Derulo, Ed Sheeran, WALK THE MOON, Billie Eilish, Ritt Momney, Jonas Brothers, Shawn Mendes</p></div>
+            </div>
+            <div class="bgImg"><img data-lazy="https://i.pinimg.com/236x/76/1f/98/761f98bf4ef9c9619368e0b5d46e4e78.jpg" alt="image" srcset=""></div>
+          </li>
+          <li class="itemsC">
+            <div class="contants">
+                <h1 class="leftTxtDet">Power!</h1>
+                <div class="textDet" style="background-color: #2c3e48"><p>Billie Eilish, Jai Wolf, Kelly Clarkson, DNCE, P!nk, Jason Derulo, Ed Sheeran, WALK THE MOON, Billie Eilish, Ritt Momney, Jonas Brothers, Shawn Mendes</p></div>
+            </div>
+            <div class="bgImg"><img data-lazy="https://pbs.twimg.com/media/EFeJlnYWwAAT-A5.jpg" alt="image" srcset=""></div>
+          </li>
+          <li class="itemsC">
+            <div class="contants">
+                <h1 class="leftTxtDet">Hope</h1>
+                <div class="textDet" style="background-color: #013e6a"><p>Panic at the Disco, Jai Wolf, Kelly Clarkson, DNCE, P!nk, Jason Derulo, Ed Sheeran, WALK THE MOON, Billie Eilish, Ritt Momney, Jonas Brothers, Shawn Mendes</p></div>
+            </div>
+            <div class="bgImg"><img data-lazy="https://i.pinimg.com/736x/46/73/28/46732810e13cdc88864b03b5e234c58a.jpg" alt="image" srcset=""></div>
+          </li>
+          <li class="itemsC">
+            <div class="contants">
+                <h1 class="leftTxtDet">Levitating!</h1>
+                <div class="textDet" style="background-color: #b30003"><p>Dua Lipa, Jai Wolf, Kelly Clarkson, DNCE, P!nk, Jason Derulo, Ed Sheeran, WALK THE MOON, Billie Eilish, Ritt Momney, Jonas Brothers, Shawn Mendes</p></div>
+            </div>
+            <div class="bgImg"><img data-lazy="https://www.hqdiesel.net/gallery/albums/userpics/10004/normal_hqdiesel0969.jpg" alt="image" srcset=""></div>
+          </li>
+          <li class="itemsC">
+            <div class="contants">
+                <h1 class="leftTxtDet">Made with Luv!</h1>
+                <div class="textDet"><p>BTS, Jai Wolf, Kelly Clarkson, DNCE, P!nk, Jason Derulo, Ed Sheeran, WALK THE MOON, Billie Eilish, Ritt Momney, Jonas Brothers, Shawn Mendes</p></div>
+            </div>
+            <div class="bgImg"><img data-lazy="https://i.pinimg.com/originals/18/81/06/1881067a91a6f83c320166ed0fb401b5.png" alt="image" srcset=""></div>
+          </li>          
+        </ul>
+      </div>
+    </div>
+
+    <div id="search-now"></div>
+    <section class="lwrap">
+      <section class="list-wrap">
+        <div class="itama">
+          <label for="search-text">NG 
+            <span class="select-dropdown">
+              <select name="links" id="" size="1" onchange="window.location.href=this.value;">
+                <option value="">..</option>
+                <option value="phLOG/index.html">PHC</option>
+                <option value="lgLOG/index.html">LAG</option>
+                <option value="abLOG/index.html">ABJ</option>
+              </select>
+            </span>
+          </label>
+          
+          <p class="a">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <input type="text" id="search-text" placeholder="search" class="search-box">
+          
+            <!-- <span class="list-count"></span> -->
+          </p>
+          <ul id="list">
+            <li class="in"><a href="MobileDevices/index.html"><img class="minimg" data-lazy="0icmg/smartphone.png" alt=""> Mobile Devices</a></li>
+            <li class="in"><a href="Electronics/index.html"><img class="minimg" data-lazy="0icmg/imac.png" alt=""> Electronic Devices</a></li>
+            <li class="in"><a href="Car Pool & Fleet/index.html"><img class="minimg" data-lazy="0icmg/futuristic.png" alt=""> Car Pool & Fleets</a></li>
+            <li class="in"><a href="Real Estate/index.html"><img class="minimg" data-lazy="0icmg/house.png" alt=""> Real-Estate</a></li>
+            <li class="in hide">..</li>
+            <li class="in">..</li>
+            <li class="in">..</li>
+            <li class="in">Chocolate-strawberry torte</li>
+            <li class="in">Chocolate-zucchini cake</li>
+            <li class="in">Anything involving chocolate and mint</li>
+            <li class="in">Red-velvet cake</li>
+            <li class="in">Anything involving fruits that aren't cherries</li>
+            <li class="in">drone</li>
+            <li class="in">ship</li>
+            <span class="empty-item">no results</span>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <div class="heads">
+      <h4 class="headers">Categories <i class="fa-solid fa-arrow-right"></i></h4>
+      <div class="stories-container">
+        <div data-modal="dialog3" class="iteem"><img data-lazy="https://i.pinimg.com/564x/b0/94/fd/b094fd5b728968e47a810cee6c03086a.jpg" alt="Sample photo"></div>
+        <div class="iteem"><img data-lazy="https://i.pinimg.com/564x/52/41/27/524127b16871868f4a722db6bf722af1.jpg" alt="Sample photo"></div>
+        <div class="iteem"><img data-lazy="https://i.pinimg.com/564x/a0/0a/b4/a00ab4064ad8968a54daad84b3791ac8.jpg" alt="Sample photo"></div>
+      </div>
+    </div>
+
+    <section class="cards" data-modal="dialog1">
+        <article class="card">
+          <span class="ribbon">20% off</span>
+          <picture class="thumbnail">
+               <img class="category__01" data-lazy="https://i.pinimg.com/564x/ee/8e/0a/ee8e0a68ee42cebb9c2fd8ca2e4c5b9c.jpg" alt="" />
+          </picture>
+          <div class="card-content">
+            <p class="category category__01">200,000</p>     
+            <h2>I Phone 13</h2> 
+          </div>
+        </article>
+
+        <article class="card" data-modal="dialog1">
+          <span class="ribbon">20% off</span>
+          <picture class="thumbnail">
+               <img class="category__01" data-lazy="https://i.pinimg.com/564x/ee/8e/0a/ee8e0a68ee42cebb9c2fd8ca2e4c5b9c.jpg" alt="" />
+          </picture>
+          <div class="card-content">
+            <p class="category category__01">200,000</p>       
+            <h2>I Phone 13</h2>
+          </div>
+        </article>
+
+        <article class="card" data-modal="dialog1">
+          <span class="ribbon">20% off</span>
+          <picture class="thumbnail">
+               <img class="category__01" data-lazy="https://i.pinimg.com/564x/ee/8e/0a/ee8e0a68ee42cebb9c2fd8ca2e4c5b9c.jpg" alt="" />
+          </picture>
+          <div class="card-content">
+            <p class="category category__01">200,000</p>       
+            <h2>I Phone 13</h2>
+          </div>
+        </article>
+
+        <article class="card" data-modal="dialog1">
+          <span class="ribbon">20% off</span>
+          <picture class="thumbnail">
+               <img class="category__01" data-lazy="https://i.pinimg.com/564x/ee/8e/0a/ee8e0a68ee42cebb9c2fd8ca2e4c5b9c.jpg" alt="" />
+          </picture>
+          <div class="card-content">
+            <p class="category category__01">200,000</p>
+            <h2>I Phone 13</h2>
+          </div>
+        </article>
+
+      </section> 
+      
+      <!-- <div class="kontainer">
+        <div class="pagination">
+          <ul class="pagination-2">
+            <li class="page-number prev"><a href="#">&laquo;</a></li>
+            <li class="page-number"><a href="#">1</a></li>
+            <li class="page-number active"><a href="#">2</a></li>
+            <li class="page-number"><a href="#">3</a></li>
+            <li class="page-number prev"><a href="#">&raquo;</a></li>
+          </ul>
+        </div>
+      </div> -->
+      
+      <div class="ccontainer">
+        <main class="grid">
+          <article>
+            <img data-lazy="https://i.pinimg.com/564x/76/7a/3a/767a3a0a5dcbdf533c8b7d05e7ab54f0.jpg" alt="Sample photo">
+            <div class="text">
+              <h3>Top Deals On Bolt, Uber & Rida</h3>
+              <a href="#" class="btnn">Explore</a>
+            </div>
+          </article>
+          <article>
+            <img data-lazy="https://i.pinimg.com/564x/aa/75/fb/aa75fb0c7de95972ef24e5513d6fafed.jpg" alt="Sample photo">
+            <div class="text">
+              <h3>Completely Synergize</h3>
+              <a href="#" class="btnn">Explore</a>
+            </div>
+          </article>
+          <article>
+            <img data-lazy="https://i.pinimg.com/564x/fa/0d/8c/fa0d8ccf13ac15129a810f34b1a91463.jpg" alt="Sample photo">
+            <div class="text">
+              <h3>Dynamically Procrastinate</h3>
+              <a href="#" class="btnn">Explore</a>
+            </div>
+          </article>
+          <article>
+            <img data-lazy="https://picsum.photos/600/400?image=1050" alt="Sample photo">
+            <div class="text">
+              <h3>Best in class</h3>
+              <a href="#" class="btnn">Explore</a>
+            </div>
+          </article>
+          <article>
+            <img data-lazy="https://i.pinimg.com/564x/d9/ff/ce/d9ffcec71f2afc0c98458c4e4472b73b.jpg" alt="Sample photo">
+            <div class="text">
+              <h3>Dynamically innovate supply chains</h3>
+              <a href="#" class="btnn">Here's why</a>
+            </div>
+          </article>
+          <article>
+            <img data-lazy="https://i.pinimg.com/564x/c6/24/9c/c6249c01b399bcf41d825051cccd31dd.jpg" alt="Sample photo">
+            <div class="text">
+              <h3>Sanity check</h3>
+              <a href="#" class="btnn">Stop here</a>
+            </div>
+          </article>
+        </main>
+      </div>
+        
+      <footer>
+        <div class="footer-content">
+          <h3>LOGO</h3>
+          <hr>
+          <p>How<br> About <br> Contact Us <br>Privacy Policy <br>Term of Use.</p>            
+          <ul class="socials">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          </ul>      
+        </div>
+        <div class="footer-bottom">
+          <p>Copyright &copy Tochukwu Ukpabi <span id="year"></span></p>
+          <div class="footer-menu">
+          </div>
+        </div>
+      </footer>  
+
+      <dialog id="dialog1">
+        <h2>I Phone 13 </h2> 
+        <p>TUX re-inventing the wheel, and move the needle. Feature creep dogpile that but diversify kpis but market-facing. 
+          <br><br><p>Contact Seller at <b>Garrison Ogbunabali</b></p>
+          <br><p class="category category__01">200,000</p>  <div class="contact"><img data-lazy="https://i.pinimg.com/564x/20/96/29/2096290a387de0bfb74b8b84b51ea799.jpg" alt="Avatar" class="avatar"> &nbsp; <i class="fa-brands fa-whatsapp"></i>⁞<i class="fa-sharp fa-solid fa-phone"></i><hr></div><br><br>
+        </p>
+        <div class="stories-container taam">
+          <div class="itaam"><img data-lazy="https://i.pinimg.com/564x/b0/94/fd/b094fd5b728968e47a810cee6c03086a.jpg" alt="Sample photo"></div>
+          <div class="itaam"><img data-lazy="https://i.pinimg.com/564x/52/41/27/524127b16871868f4a722db6bf722af1.jpg" alt="Sample photo"></div>
+          <div class="itaam" style="width: 205px;"><div class="hs-responsive-embed-youtube">◄<iframe class="youtube-video" src="https://www.youtube.com/embed/5Y-aYA6YLlg?enablejsapi=1&version=3&playerapiid=ytplayer" frameborder="0" modestbranding="1"></iframe></div></div>
+        </div>
+        <button class="btnClose btnCloseRightTop"><a class="stop-video">❌</a></button>
+        <div class="heads">
+          <hr>
+          <h6>Similar Ads</h6>
+          <div class="stories-container team">
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/9e/34/98/9e349835cadcbd481e9703ec990c2410.jpg" alt="Sample photo"><br><h6>hello</h6><h5>240000</h5></div>
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/03/03/20/03032012f1012ae1857522609d80a8b1.jpg" alt="Sample photo"><br><h6>hello</h6></div>
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/a0/0a/b4/a00ab4064ad8968a54daad84b3791ac8.jpg" alt="Sample photo"><br><h6>hello</h6></div>
+          </div>
+        </div>
+      </dialog> 
+      <dialog id="dialog2">
+        <h2>I Phone 13 </h2> 
+        <p>TUX re-inventing the wheel, and move the needle. <br>
+          <br><p class="category category__01">200,000</p>  <div class="contact"><img data-lazy="https://i.pinimg.com/564x/20/96/29/2096290a387de0bfb74b8b84b51ea799.jpg" alt="Avatar" class="avatar"> &nbsp; <i class="fa-brands fa-whatsapp"></i>⁞<i class="fa-sharp fa-solid fa-phone"></i><hr></div><br><br>
+        </p>
+        <button class="btnClose btnCloseRightTop"><a class="stop-video">❌</a></button>
+        <div class="heads"><br>
+          <h6>Similar Ads</h6>
+          <div class="stories-container team">
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/9e/34/98/9e349835cadcbd481e9703ec990c2410.jpg" alt="Sample photo"><br><h6>hello</h6><h5>240000</h5></div>
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/03/03/20/03032012f1012ae1857522609d80a8b1.jpg" alt="Sample photo"><br><h6>hello</h6></div>
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/a0/0a/b4/a00ab4064ad8968a54daad84b3791ac8.jpg" alt="Sample photo"><br><h6>hello</h6></div>
+          </div>
+          <div class="stories-container team">
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/9e/34/98/9e349835cadcbd481e9703ec990c2410.jpg" alt="Sample photo"><br><h6>hello</h6><h5>240000</h5></div>
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/03/03/20/03032012f1012ae1857522609d80a8b1.jpg" alt="Sample photo"><br><h6>hello</h6></div>
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/a0/0a/b4/a00ab4064ad8968a54daad84b3791ac8.jpg" alt="Sample photo"><br><h6>hello</h6></div>
+          </div>
+          <div class="stories-container team">
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/9e/34/98/9e349835cadcbd481e9703ec990c2410.jpg" alt="Sample photo"><br><h6>hello</h6><h5>240000</h5></div>
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/03/03/20/03032012f1012ae1857522609d80a8b1.jpg" alt="Sample photo"><br><h6>hello</h6></div>
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/a0/0a/b4/a00ab4064ad8968a54daad84b3791ac8.jpg" alt="Sample photo"><br><h6>hello</h6></div>
+          </div>
+        </div>
+      </dialog>
+      <dialog id="dialog3">
+        <h2>I Phone 13 </h2> 
+        <p>TUX re-inventing the wheel, and move the needle. <br>
+          <br><p class="category category__01">200,000</p>  <div class="contact"><img data-lazy="https://i.pinimg.com/564x/20/96/29/2096290a387de0bfb74b8b84b51ea799.jpg" alt="Avatar" class="avatar company"> &nbsp; <i class="fa-brands fa-whatsapp"></i>⁞<i class="fa-sharp fa-solid fa-phone"></i><hr></div><br><br>
+        </p>
+        <button class="btnClose btnCloseRightTop"><a class="stop-video">❌</a></button>
+        <div class="heads"><br>
+          <h6>Similar Ads</h6>
+          <div class="stories-container team">
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/9e/34/98/9e349835cadcbd481e9703ec990c2410.jpg" alt="Sample photo"><br><h6>hello</h6><h5>240000</h5></div>
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/03/03/20/03032012f1012ae1857522609d80a8b1.jpg" alt="Sample photo"><br><h6>hello</h6></div>
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/a0/0a/b4/a00ab4064ad8968a54daad84b3791ac8.jpg" alt="Sample photo"><br><h6>hello</h6></div>
+          </div>
+          <div class="stories-container team">
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/9e/34/98/9e349835cadcbd481e9703ec990c2410.jpg" alt="Sample photo"><br><h6>hello</h6><h5>240000</h5></div>
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/03/03/20/03032012f1012ae1857522609d80a8b1.jpg" alt="Sample photo"><br><h6>hello</h6></div>
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/a0/0a/b4/a00ab4064ad8968a54daad84b3791ac8.jpg" alt="Sample photo"><br><h6>hello</h6></div>
+          </div>
+          <div class="stories-container team">
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/9e/34/98/9e349835cadcbd481e9703ec990c2410.jpg" alt="Sample photo"><br><h6>hello</h6><h5>240000</h5></div>
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/03/03/20/03032012f1012ae1857522609d80a8b1.jpg" alt="Sample photo"><br><h6>hello</h6></div>
+            <div data-modal="dialog2" class="iteam"><img data-lazy="https://i.pinimg.com/564x/a0/0a/b4/a00ab4064ad8968a54daad84b3791ac8.jpg" alt="Sample photo"><br><h6>hello</h6></div>
+          </div>
+        </div>
+      </dialog>
+      <div id="myNav" class="overlay">
+        <div class="overlay-content">
+          <a class="menu__link"href="#">About</a>
+          <a href="#">Services</a>
+          <a href="SubNav/pricing.html">Pricing</a>
+          <a href="SubNav/glossary.html">Glossary</a>
+          <a href="#">Contact</a>
+        </div>
+        <a href="javascript:void(0)" class="closebtnn" onclick="closeNav()">&times;</a>
+      </div>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>

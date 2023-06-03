@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+	text-align: center;
+  height: 100vh;
+  justify-content: center;
+  background: darkgrey !important;
+}
+
+#button{padding-top: 50%;}
+.caption-text-carousel {
+    font-family: Open Sans;
+    font-size: 12px;
+    text-align: left;    
+}
+#carousel-example{
+  height: 50vh !important;
+  width: auto;
+  object-fit: cover;
+}
+
+.modal-content{height: 90vh; max-width: 400px; overflow: hidden; margin: auto;}
+.modal-dialog{margin: auto !important;}
